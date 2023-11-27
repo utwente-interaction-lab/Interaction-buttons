@@ -92,7 +92,7 @@ Include screenshots of the project in action, highlighting its key features and 
 
 Include a link to the GitHub repository where the code for the project is stored. Provide instructions on how to access and modify the code.
 
-- [GitHub Repository](https://github.com/username/repository) <!-- Replace with the actual repository URL -->
+- [GitHub Repository]([https://github.com/username/repository](https://github.com/utwente-interaction-lab/Bee-Buttons)) <!-- Replace with the actual repository URL -->
 
 > **Note**: Explain any unusual code or code requirements here.
 
