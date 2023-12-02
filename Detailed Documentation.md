@@ -14,12 +14,12 @@ Interaction-lab-eemcs@utwente.nl<div style="position: absolute; top: 0; right: 2
   - [Requirements](#requirements)
   - [Creation](#creation)
   - [Instructions](#instructions)
+    - [Functions dongle](#functions-dongle)
   - [Creating a script](#creating-a-script)
   - [Commands](#commands)
   - [Screenshots](#screenshots)
   - [Code](#code)
   - [Conclusion](#conclusion)
-  - [Attribution](#attribution)
 
 ## Introduction
 
@@ -56,6 +56,17 @@ Provide step-by-step instructions on how to set up and use the project. Include 
 - 3\. Put the mesh dongle in your computer, the screen will turn on. When connected to the mesh it should show the amount of buttons that are connected to it.
 - 4\. Run your script that creates the interactions. There is a Python example available.
     - If you stop the script the dongle reboots, make sure it is connected to the mesh before running the script again.
+
+### Functions dongle
+The dongle has a button on the underside, this button can do three things:
+
+- Normal press: it refreshed the node list and the connected amount of buttons
+- Double press: It will flip the screen, it can be upside down depending on what side the USB port is.
+  - This state is remembered when the dongle is turned on again.
+- Long press: Sets all connected buttons to Battery display mode
+  - The actual values are also sent over the serial port. You can read these for example with the arduino ide or putty.
+
+
 ## Creating a script
 
 -   1. To create a script for your interactions, choose a programming language of your choice and make sure it has the library installed for serial Communication (for Python this is PySerial).
@@ -113,16 +124,15 @@ Include a link to the GitHub repository where the code for the project is stored
 
 ## Conclusion
 
-Wrap up the documentation with a summary of the project, its outcomes, and any future directions or improvements that could be made.
+The buttons will be tested in module 6 as a tool in the course. Besides this they might be used for graduations projects.
+If any problems occur during those use cases, the functionality of the buttons might be extended.
 
-## Attribution
+The buttons as is work great on the software side and are easy to set up. This used to be complicated.
+However due to same manufacturing error, there is only one set of buttons where the LEDs work correctly.
+The other 2 sets have defective LEDs, they migh be replaced later.
 
-Include proper IEEE format attribution for any resources used in the project, such as images, code snippets, and other assets.
 
-- [Resource 1](https://example.com/resource1): Briefly describe the resource.
-- [Resource 2](https://example.com/resource2): Briefly describe the resource.
 
----
 
 Interaction Lab - [Website](https://example.com) <!-- Replace with the actual website URL -->
 Interaction-lab-eemcs@utwente.nl<div style="position: absolute; top: 0; right: 200;">
