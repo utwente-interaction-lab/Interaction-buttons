@@ -1,3 +1,4 @@
+// pyinstaller --onefile --name demo .\Python_Serial_Example.py
 <div style="position: absolute; top: 0; right: 200;">
   <img width="50px" src="/images/Template/Interactionlab-Logo.png" alt="Interaction Lab Logo"/>
 </div>
