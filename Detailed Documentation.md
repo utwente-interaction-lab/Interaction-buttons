@@ -8,14 +8,18 @@ Interaction-lab-eemcs@utwente.nl<div style="position: absolute; top: 0; right: 2
 
 ## Table of Contents
 
-1. [Introduction](#introduction)
-2. [Requirements](#requirements)
-3. [Creation](#creation)
-4. [Instructions](#instructions)
-5. [Screenshots](#screenshots)
-6. [Code](#code)
-7. [Conclusion](#conclusion)
-8. [Attribution](#attribution)
+- [Mesh enabled interaction buttons](#mesh-enabled-interaction-buttons)
+  - [Table of Contents](#table-of-contents)
+  - [Introduction](#introduction)
+  - [Requirements](#requirements)
+  - [Creation](#creation)
+  - [Instructions](#instructions)
+  - [Creating a script](#creating-a-script)
+  - [Commands](#commands)
+  - [Screenshots](#screenshots)
+  - [Code](#code)
+  - [Conclusion](#conclusion)
+  - [Attribution](#attribution)
 
 ## Introduction
 
@@ -85,8 +89,19 @@ The following colors are available; Red, Blue, Green, Purple, Yellow, Orange, Cy
 
 Include screenshots of the project in action, highlighting its key features and functionalities.
 
-![Screenshot 1](screenshot1_url) <!-- Replace screenshot1_url with the actual URL of your screenshot -->
-![Screenshot 2](screenshot2_url) <!-- Replace screenshot2_url with the actual URL of your screenshot -->
+![Screenshot 1](\Pictures\Pictures/screenshot%20programm.png)
+This is how to program looks when starting.
+
+![Picture 1](\Pictures/Dongle.jpg) 
+Picture of the dongle.
+
+![Picture 2](\Pictures\Pictures/Button_Inside.jpg)
+Picture of the inside of the buttons.
+
+![Picture 3](\Pictures\Pictures/Button_on_off.jpg)
+Picture of the buttons, one is of the other one is green
+
+
 
 ## Code
 

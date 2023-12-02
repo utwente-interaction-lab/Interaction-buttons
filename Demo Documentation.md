@@ -48,6 +48,9 @@ List common issues and their solutions related to the demo.
     - **Solution**: Press the button on the dongle
 - **Issue 4**: Display is upside down
     - **Solution**: Double press the button on the dongle
+- **Issue 5**: The exe file does not start
+    - **Solution_1**: You are not using windows or your laptop blocks the file from starting (computer from the university). Use an other laptop
+    - **Solution_2**: You have another program open that is connected to the dongle over serial. (Can be an other instance of the demo)
 
  
 [detailed documentation](https://github.com/utwente-interaction-lab/Interaction-buttons/blob/main/Detailed%20Documentation.md)
@@ -55,3 +58,8 @@ List common issues and their solutions related to the demo.
 **Max Pijnappel**
 
 Interaction Lab footer 
+
+## extra
+
+To compile your own python code into a exe for demos use pyinstaller.
+For example `pyinstaller --onefile --name demo .\Python_Serial_Example.py` can be used, depending on the name of you python file
